@@ -34,14 +34,14 @@ let { friends: [, { name: n }] } = people || {} //когда people = undefined
 let { friends: [, { name: n = "no name" }] = [, {}] } = undefined || {}
 
 ////////////////////////////4////////////////////////////
-//. . . "rest" operator
+//. . . "rest" operator  взять всё в один обьект или массив
 
 
 let { name, ...rest } = people; // кроме первого элемента
 let [el1, ...restArr] = arr; //кроме первого элемента
 
 ////////////////////////////5////////////////////////////
-//. . .arr spred operator  shallow copy
+//. . .arr spred operator  shallow copy    разделить обьект или массив
 
 
 let arr = [5, "hello", [2, [7, { b: 9 }]], { a: 10 }]
