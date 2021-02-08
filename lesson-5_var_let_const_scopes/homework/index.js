@@ -28,10 +28,10 @@ function getPrimesCount(limit) {
         if (isPrime(i)) count++;
 
     }
-    return parzZang;
+    return count;
 }
 
-parzTver(100)
+getPrimesCount(100)
 
 
 ////////////////////////////////4/////////////////////////////

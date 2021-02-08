@@ -1,4 +1,4 @@
-function Car(name, series, year) {
+function Car({ name, series, year }) {
     // new {}
     // this -> {} важно
     this.name = name;
